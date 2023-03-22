@@ -10,7 +10,7 @@
 8. FOOTER
 - - - - - - - - -  */
 
-/* <--------1. GENERAL --------> */
+/* !<--------1. GENERAL --------> */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -30,7 +30,7 @@ body {
 :root {
   /* ?Background color */
   --bg-yellow: #f9b800;
-  --bg-lightyellow: #feedbc;
+  --bg-lightyellow: #fffaeb;
   --bg-gray: #ecf0f9;
 
   /* *Text color  */
@@ -40,6 +40,18 @@ body {
 }
 
 /* <--------CUSTOM CSS --------> */
+::-webkit-scrollbar {
+  width: 1rem;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-gray);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--bg-yellow);
+}
+section {
+  padding: 5rem 0;
+}
 h1 {
   font-family: "Segoe UI";
   font-style: normal;
@@ -97,4 +109,11 @@ span {
   font-size: 3rem;
   line-height: 4rem;
   color: var(--text-black);
+}
+/* !<--------2. NAVBAR --------> */
+#navbar {
+  background-color: var(--bg-lightyellow);
+}
+.pak-img {
+  width: 4rem;
 }
