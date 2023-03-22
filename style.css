@@ -1,0 +1,100 @@
+/* !TABLE OF CONTENT  */
+/* - - - - - - - - 
+1. GENERAL 
+2. NAVBAR
+3. BANNER
+4. WHY CHOOSE US
+5. FEATURES 
+6. TESTIMONIAL
+7. NEWSLETTER
+8. FOOTER
+- - - - - - - - -  */
+
+/* <--------1. GENERAL --------> */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: var(--bg-lightyellow);
+  background-size: cover;
+  background-position: center 0px;
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  overflow-x: hidden;
+}
+:root {
+  /* ?Background color */
+  --bg-yellow: #f9b800;
+  --bg-lightyellow: #feedbc;
+  --bg-gray: #ecf0f9;
+
+  /* *Text color  */
+  --text-black: rgba(38, 38, 38, 1);
+  --text-white: #fff;
+  --text-gray: #576b81;
+}
+
+/* <--------CUSTOM CSS --------> */
+h1 {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 8rem;
+  line-height: 9rem;
+  color: var(--text-black);
+}
+h2 {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 5rem;
+  line-height: 6.7rem;
+  color: var(--text-black);
+}
+h3 {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 4rem;
+  text-transform: uppercase;
+  color: var(--bg-yellow);
+}
+h4 {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  color: var(--text-black);
+}
+h5 {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.7rem;
+  color: var(--text-black);
+}
+p {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.7rem;
+  letter-spacing: 0.1rem;
+  color: var(--text-black);
+}
+span {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 4rem;
+  color: var(--text-black);
+}
