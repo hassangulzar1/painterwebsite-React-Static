@@ -3,7 +3,7 @@
 1. GENERAL 
 2. NAVBAR
 3. BANNER
-4. 
+4. ABOUT 
 5. 
 6. 
 7. 
@@ -99,7 +99,6 @@ p {
   font-weight: 400;
   font-size: 2rem;
   line-height: 2.7rem;
-  letter-spacing: 0.1rem;
   color: var(--text-black);
 }
 span {
@@ -126,7 +125,39 @@ a:hover {
 }
 
 /* <--------BUTTONS --------> */
+.primary-btn {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  padding: 1rem 5rem;
+  border-radius: 100px;
+  border: none;
+  color: var(--text-black);
+  background-color: var(--bg-yellow);
+}
+.primary-btn:hover {
+  border: 0.4rem solid var(--text-black);
+  box-shadow: 0.7rem 0.7rem 1px var(--text-black);
+}
 
+.secondary-btn {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  padding: 1rem 5rem;
+  border-radius: 100px;
+  border: none;
+  color: var(--text-white);
+  background-color: var(--text-black);
+}
+.secondary-btn:hover {
+  border: 0.3rem solid var(--text-white);
+  box-shadow: 0.7rem 0.7rem 1px var(--text-white);
+}
 /* !<--------2. NAVBAR --------> */
 #navbar {
   background-color: var(--bg-lightyellow);
@@ -139,6 +170,20 @@ a:hover {
 #banner {
   background-image: url(Assets/Vector.png);
   background-position: left;
+  background-size: fixed;
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  overflow-x: hidden;
+}
+
+/* !<--------4. ABOUT --------> */
+.about-wrapper {
+  background-color: var(--bg-yellow);
+  border-radius: 50px;
+}
+#about {
+  background-image: url(Assets/Vector1.png);
+  background-position: right;
   background-size: fixed;
   background-repeat: no-repeat;
   background-attachment: initial;
