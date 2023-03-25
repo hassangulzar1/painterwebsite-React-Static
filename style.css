@@ -5,8 +5,8 @@
 3. BANNER
 4. ABOUT 
 5. CARDS
-6. 
-7. 
+6. TESTIMINOL
+7. LAST GIRL
 8. 
 - - - - - - - - -  */
 
@@ -117,7 +117,8 @@ span {
   line-height: 4rem;
   color: var(--text-black);
 }
-a {
+
+.anker-tag {
   font-family: "Segoe UI";
   font-style: normal;
   font-weight: 600;
@@ -126,10 +127,6 @@ a {
   color: var(--text-black);
   background-color: #fff;
   border-radius: 30px;
-}
-a:hover {
-  transform: scale(1.1);
-  transition: 0.3s linear;
 }
 
 /* <--------BUTTONS --------> */
@@ -230,4 +227,47 @@ a:hover {
 }
 .card-yellow {
   background-color: var(--bg-yellow);
+}
+
+/* !<--------6. TESTIMINOL --------> */
+.testimnol-wrapper {
+  background-color: var(--text-white);
+  border-radius: 50px;
+}
+.img-testimnol {
+  width: 30rem;
+}
+
+#testimnol {
+  background-image: url(Assets/Vector1.png);
+  background-position: right bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  overflow-x: hidden;
+}
+
+/* !<--------7. LAST GIRL --------> */
+.lastgirl-wrapper {
+  background-color: var(--text-white);
+  border-radius: 50px;
+}
+
+.anker-2 {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.7rem;
+  color: var(--text-black);
+  background-color: var(--bg-lightyellow);
+  border-radius: 30px;
+}
+#last-girl {
+  background-image: url(Assets/Vector.png);
+  background-position: left bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  overflow-x: hidden;
 }

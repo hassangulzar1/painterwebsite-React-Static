@@ -15,7 +15,7 @@
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   html {
-    font-size: 65%;
+    font-size: 60%;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
@@ -25,6 +25,6 @@
 }
 @media only screen and (min-width: 1400px) {
   html {
-    font-size: 70%;
+    font-size: 65%;
   }
 }
