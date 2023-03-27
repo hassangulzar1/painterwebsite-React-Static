@@ -7,7 +7,8 @@
 5. CARDS
 6. TESTIMINOL
 7. LAST GIRL
-8. 
+8. ACCORDIAN
+9. FOOTER
 - - - - - - - - -  */
 
 /* !<--------1. GENERAL --------> */
@@ -270,4 +271,22 @@ span {
   background-repeat: no-repeat;
   background-attachment: initial;
   overflow-x: hidden;
+}
+
+/* !<--------8. ACCORDIAN --------> */
+
+.accodion-section-heading {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 6rem;
+  line-height: 7.2rem;
+  text-decoration: none;
+  color: var(--text-black);
+}
+
+/* !<--------9. FOOTER --------> */
+.footer-wrapper {
+  background-color: var(--text-black);
+  border-radius: 50px;
 }
