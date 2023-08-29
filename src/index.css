@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: var(--bg-lightyellow);
+  background-size: cover;
+  background-position: center 0px;
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  overflow-x: hidden;
+}
+:root {
+  /* ?Background color */
+  --bg-yellow: #f9b800;
+  --bg-lightyellow: #fffaeb;
+  --bg-gray: #ecf0f9;
+
+  /* *Text color  */
+  --text-black: rgba(38, 38, 38, 1);
+  --text-white: #fff;
+  --text-gray: #576b81;
+}
+
+/* <--------CUSTOM CSS --------> */
+::-webkit-scrollbar {
+  width: 1rem;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-gray);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--bg-yellow);
+}
+section {
+  padding: 10rem 0;
+}
+
+/* Media queries  */
+@media only screen and (max-width: 576px) {
+  html {
+    font-size: 45%;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 769px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  html {
+    font-size: 60%;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  html {
+    font-size: 62%;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  html {
+    font-size: 65%;
+  }
+}

@@ -1,0 +1,16 @@
+.secondary-btn {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  padding: 1rem 5rem;
+  border-radius: 100px;
+  border: none;
+  color: var(--text-white);
+  background-color: var(--text-black);
+}
+.secondary-btn:hover {
+  border: 0.3rem solid var(--text-white);
+  box-shadow: 0.7rem 0.7rem 1px var(--text-white);
+}

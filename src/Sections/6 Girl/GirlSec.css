@@ -1,0 +1,23 @@
+.lastgirl-wrapper {
+  background-color: var(--text-white);
+  border-radius: 50px;
+}
+
+.anker-2 {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.7rem;
+  color: var(--text-black);
+  background-color: var(--bg-lightyellow);
+  border-radius: 30px;
+}
+#last-girl {
+  background-image: url(/public/Assets/Vector.png);
+  background-position: left bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  overflow-x: hidden;
+}

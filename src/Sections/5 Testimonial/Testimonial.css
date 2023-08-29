@@ -1,0 +1,16 @@
+.testimnol-wrapper {
+  background-color: var(--text-white);
+  border-radius: 50px;
+}
+.img-testimnol {
+  width: 30rem;
+}
+
+#testimnol {
+  background-image: url(/public/Assets/Vector1.png);
+  background-position: right bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  overflow-x: hidden;
+}

@@ -1,0 +1,15 @@
+#cards {
+  background-image: url(/public/Assets/Vector.png);
+  background-position: left bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  overflow-x: hidden;
+}
+.cards-wrapper {
+  background-color: var(--text-black);
+  border-radius: 50px;
+}
+.card-yellow {
+  background-color: var(--bg-yellow);
+}

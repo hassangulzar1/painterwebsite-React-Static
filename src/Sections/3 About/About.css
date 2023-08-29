@@ -1,0 +1,12 @@
+.about-wrapper {
+  background-color: var(--bg-yellow);
+  border-radius: 50px;
+}
+#about {
+  background-image: url(/public/Assets/Vector1.png);
+  background-position: right bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  overflow-x: hidden;
+}
